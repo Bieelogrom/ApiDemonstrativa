@@ -22,7 +22,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @Column(length = 120, nullable = false)
-    private String nome;
+    private String name;
     @Column(length = 220, nullable = false)
     private String email;
     private String password;
